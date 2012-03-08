@@ -1,0 +1,248 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\DesktopSnow.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""afxres.rc""         // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\DesktopSnow.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_NOTIFIY MENU 
+BEGIN
+    POPUP "menu"
+    BEGIN
+        MENUITEM "退出",                          ID_MENU_EXIT
+        MENUITEM "关于",                          ID_MENU_ABOUT
+        MENUITEM "感谢",                          ID_MENU_THANKS
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 122, 167
+STYLE DS_SETFONT | WS_POPUP | WS_VISIBLE | WS_SYSMENU
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    LTEXT           "天空中点点闪烁的雪花\r\n\r\n环绕着缤纷的绮丽梦想\r\n\r\n祝福你今年许下的心愿\r\n\r\n都能一一实现在你眼前\r\n\r\n祝你佳节温馨喜悦",IDC_STATIC,20,36,84,82,SS_NOPREFIX
+    ICON            IDR_MAINFRAME,IDC_STATIC,10,139,21,21
+    LTEXT           "山东建筑大学－郭玉昆",IDC_STATIC,23,126,81,8
+    LTEXT           "yisufuyou@163.com",IDC_STATIC,35,138,69,8
+    LTEXT           "QQ:644655955",IDC_STATIC,55,152,49,8
+    LTEXT           "圣诞快乐！",IDC_STATIC,38,15,41,8,SS_NOPREFIX
+    GROUPBOX        "",IDC_STATIC,12,6,97,112
+END
+
+IDD_PICDLG DIALOGEX 0, 0, 186, 95
+STYLE DS_SETFONT | WS_POPUP | WS_SYSMENU
+FONT 9, "宋体, MS Sans Serif", 0, 0, 0x0
+BEGIN
+END
+
+IDD_DIALOG_THANKS DIALOGEX 0, 0, 188, 249
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,13,217,21,20
+    LTEXT           "山东建筑大学　-　郭玉昆  2009-12",IDC_STATIC,39,205,124,8
+    LTEXT           "E-mail: yisufuyou@163.com",IDC_STATIC,73,219,90,8
+    GROUPBOX        "感谢下面这些给我帮助的人",IDC_STATIC,15,13,153,179
+    LTEXT           "VC知识库 - 邵凯锋",IDC_STATIC,23,61,64,8
+    LTEXT           "百度贴吧 - Dwing",IDC_STATIC,21,93,59,8
+    LTEXT           "Steven 的圣诞卡：",IDC_STATIC,20,26,66,8
+    LTEXT           "这个贺卡让我萌生了自己写个贺卡的想法，作者不详（可能是Steven吧）",IDC_STATIC,33,36,128,19
+    LTEXT           "桌面时钟部分代码及图片参考自邵凯峰的GDIPClock",IDC_STATIC,29,71,128,19
+    LTEXT           "MIDI音乐的播放部分代码参考自自百度贴吧的Dwing",IDC_STATIC,29,103,128,21
+    LTEXT           "pudn - DeskSnow",IDC_STATIC,21,123,56,8
+    LTEXT           "桌面堆雪效果部分代码参考自pudn的DeskSnow程序,作者未知",IDC_STATIC,30,134,128,19
+    LTEXT           "QQ:644655955",IDC_STATIC,113,231,50,8
+    LTEXT           "远景 - m4nx1",IDC_STATIC,21,156,45,8
+    LTEXT           "m4nx1帮我发现在Windows 7系统上桌面堆雪效果有兼容性问题",IDC_STATIC,30,167,128,19
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "yisufuyou"
+            VALUE "FileDescription", "yisufuyou的圣诞贺卡"
+            VALUE "FileVersion", "1.0.0.1(R)"
+            VALUE "InternalName", "DesktopSnow.exe"
+            VALUE "LegalCopyright", "(C) yisufuyou。保留所有权利。"
+            VALUE "OriginalFilename", "DesktopSnow.exe"
+            VALUE "ProductName", "yisufuyou的圣诞贺卡"
+            VALUE "ProductVersion", "(R)"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 115
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 160
+    END
+
+    IDD_PICDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_DIALOG_THANKS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 181
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 242
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDR_PNGSEC              PNG                     "res\\Clocksec.png"
+IDR_PNGHOUR             PNG                     "res\\Clockhour.png"
+IDR_PNGMIN              PNG                     "res\\Clockmin.png"
+IDR_PNGNUM              PNG                     "res\\DigitNUM.png"
+IDR_PNGBAK1             PNG                     "res\\ClockBackchain1.png"
+IDR_PNGBAK              PNG                     "res\\ClockBackchain.png"
+IDR_PNG_BIG_SNOW1       PNG                     "res\\bigsnow1.png"
+IDR_PNG_BIG_SNOW2       PNG                     "res\\bigsnow2.png"
+IDR_PNG_BIG_SNOW3       PNG                     "res\\bigsnow3.png"
+IDR_PNG_BIG_SNOW4       PNG                     "res\\bigsnow4.png"
+IDR_PNG_SMALL_SNOW1     PNG                     "res\\smallsnow1.png"
+IDR_PNG_SMALL_SNOW2     PNG                     "res\\smallsnow2.png"
+IDR_PNG_SMALL_SNOW3     PNG                     "res\\smallsnow3.png"
+IDR_PNG_SMALL_SNOW4     PNG                     "res\\smallsnow4.png"
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\DesktopSnow.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "afxres.rc"         // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
